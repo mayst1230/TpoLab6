@@ -29,7 +29,7 @@ namespace TPOLab6
         public Login Auth()
         {
             Login loginPage = new Login(webDriver);
-            loginPage.SetLoginPasswordValue("mayst1230", "Rjvgm.nth!23");
+            loginPage.SetLoginPasswordValue("login", "password");
             loginPage.Authorization();
 
             return new Login(webDriver);
